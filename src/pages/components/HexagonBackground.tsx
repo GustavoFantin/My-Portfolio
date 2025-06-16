@@ -9,7 +9,6 @@ type hexagon = {
 }
 
 const HexagonBackground = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [hexagons, setHexagons] = useState<hexagon[]>([]);
 
   useEffect(() => {
@@ -45,7 +44,6 @@ const HexagonBackground = () => {
     const mouseX = e.clientX;
     const mouseY = e.clientY + window.scrollY;
 
-    setMousePosition({ x: mouseX, y: mouseY });
 
     setHexagons(prev =>
       prev.map(hex => {
