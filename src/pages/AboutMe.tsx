@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <>
       
-      <div className="w-screen mx-auto mb-20 relative z-20 grid grid-cols-2 justify-items-center items-center">
+      <div className="w-screen mx-auto mb-20 relative z-20 grid grid-cols-1 md:grid-cols-2 justify-items-center items-center">
         <div className="flex col-span-full flex-start w-[90%] left-10 mb-5">
           <Link to={'/'}>
             <MoveLeft className="h-10 w-20 text-gray-600 hover:text-cyan-300 hover:transform hover:translate-x-1 transition-all duration-300 ease-in-out  bg-slate-900/90 rounded-xl p-3 hover:bg-slate-800/50 hover:border-cyan-400/40 border border-slate-700/50 items-center justify-center"/>
@@ -15,7 +15,7 @@ const AboutMe = () => {
         </div>
 
         <motion.div 
-          className="max-w-2xl ml-6 bg-slate-800/40 backdrop-blur-sm border border-cyan-500/20 rounded-2xl p-8 hover:bg-slate-800/60 hover:border-cyan-400/30 hover:transition-all hover:duration-300"
+          className="max-w-2xl md:ml-6 m-4 bg-slate-800/40 backdrop-blur-sm border border-cyan-500/20 rounded-2xl p-8 hover:bg-slate-800/60 hover:border-cyan-400/30 hover:transition-all hover:duration-300"
           animate={{
               x: 0,
             }}
@@ -56,7 +56,7 @@ const AboutMe = () => {
               x: 4000,
             }}
           >
-            <img src="./pfp.png" alt="Profile Picture" className="rounded-xl w-md" />
+            <img src="./pfp.png" alt="Profile Picture" className="rounded-xl w-3xs md:w-md " />
           </motion.div>
         </div>
     </>
