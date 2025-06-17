@@ -9,14 +9,14 @@ const Header = () => {
         <nav className="flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-cyan-300 to-teal-400 bg-clip-text text-transparent">
             <Link to={'/'}>
-              <motion.img src="./pfp.png" alt="Home" className="h-10 rounded-full border border-cyan-300"
+              <motion.img src="./pfp.png" alt="Home" className="h-10 rounded-full border border-cyan-300 transition-all"
                 animate={{
                   scale: [1, 1.1, 1],
                 }}
                 transition={{
                   repeat: Infinity,
                   duration: 2,
-                  ease: "easeInOut"
+                  // ease: "easeIn"
                 }}
               />
             </Link>

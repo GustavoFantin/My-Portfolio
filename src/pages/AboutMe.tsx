@@ -28,7 +28,7 @@ const AboutMe = () => {
               x: 4000,
             }}
         >
-            <motion.div className="flex flex-col">
+            <motion.div className="flex flex-col gap-3 text-lg">
               <p>Hi there, I'm Gustavo, a new web developer who has loved technology (and gaming) for as long as I can remember.</p>
               <p>Currently, I'm finishing my web development course at CICCC Vancouver, which has given me a solid foundation in both frontend and backend technologies. Although I'm just starting out, I already consider myself a fullstack developer. Moving forward, I'm excited to improve my knowledge in backend development with Node.js and explore many other programming languages.</p>
               <p>

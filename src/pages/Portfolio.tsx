@@ -94,7 +94,7 @@ const Portfolio = () => {
             <motion.div whileHover={{ y: -10 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               initial={{ y: 0 }}  className={containerDiv}>
-              <SiNextdotjs color='default' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
+              <SiNextdotjs color='#a1a1a1' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
               <p className='text-xl'>Next.js</p>
             </motion.div>
             <motion.div whileHover={{ y: -10 }}
@@ -112,7 +112,7 @@ const Portfolio = () => {
             <motion.div whileHover={{ y: -10 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               initial={{ y: 0 }}  className={containerDiv}>
-              <SiShadcnui color='default' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
+              <SiShadcnui color='white' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
               <p className='text-xl'>ShadCnUI</p>
             </motion.div>
             <motion.div whileHover={{ y: -10 }}
@@ -144,19 +144,19 @@ const Portfolio = () => {
             <motion.div whileHover={{ y: -10 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               initial={{ y: 0 }} className={containerDiv}>
-              <SiExpress color='default' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
+              <SiExpress color='white' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
               <p className='text-xl'>Express</p>
             </motion.div>
             <motion.div whileHover={{ y: -10 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               initial={{ y: 0 }} className={containerDiv}>
-              <SiSocketdotio color='default' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
+              <SiSocketdotio color='white' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
               <p className='text-xl'>Socket.io</p>
             </motion.div>
             <motion.div whileHover={{ y: -10 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               initial={{ y: 0 }} className={containerDiv}>
-              <SiJsonwebtokens color='default' className='h-30 w-30 md:h-20 md:w-20 lg:h-20 lg:w-30' />
+              <img src='./jwt.png' className='h-30 w-30 object-contain md:h-20 md:w-20 lg:h-20 lg:w-30' />
               <p className='text-xl'>JWT/Auth</p>
             </motion.div>
             <motion.div whileHover={{ y: -10 }}
