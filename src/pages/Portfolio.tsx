@@ -1,5 +1,5 @@
 import { Download, HeartHandshake, Monitor, SquareTerminal } from 'lucide-react';
-import { SiAstro, SiBootstrap, SiExpress, SiGraphql, SiJavascript, SiJsonwebtokens, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiSass, SiShadcnui, SiSocketdotio, SiTailwindcss, SiTypescript } from '@icons-pack/react-simple-icons';
+import { SiAstro, SiBootstrap, SiExpress, SiGraphql, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiSass, SiShadcnui, SiSocketdotio, SiTailwindcss, SiTypescript } from '@icons-pack/react-simple-icons';
 import { Link } from 'react-router-dom';
 import ProjectSection from './ProjectSection';
 import { motion } from 'motion/react';
